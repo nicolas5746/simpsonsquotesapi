@@ -3,7 +3,7 @@ import './Card.sass';
 const Card = ({ name, image, quote }) => {
   return (
     <div className="card">
-      <img alt={`${name}`} src={image} />
+      <img src={image} alt={`${name}`} title={`${name}`} />
       <div className='description'>
         <h3>{name}</h3>
         <p>{quote}</p>
